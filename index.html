@@ -4,19 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app/css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>List to Do</title>
 </head>
 <body>
-  <div class="app">
+    <div class="app">
 
-    <div class="tela">
-        <div class="cadastro">
+        <div class="telas">
+
             
+            <div class="container">
+
+                <button class="btn-show-add">ICON</button>
+
+                <!-- HOME -->
+                <div class="home">
+                    
+                    <div class="show"></div>
+                </div>        
+
+                <!-- CADASTRO -->
+                <div class="add">
+                    <div class="add-task">
+                        
+                            <div class="col">
+                                
+                                <input type="text" class="name" placeholder="Name">
+                            </div>
+                               
+                            <div class="col">
+                                
+                                <input type="number" class="minutes" placeholder="Minutes">
+                            </div>
+
+                            <div class="col">
+                                <button class="btn btn-add">Add</button>
+                            </div>                    
+
+                    </div>
+                    <div class="show">
+                        <ul class="list">
+                            <li style="background: rgb(24, 189, 24); color: white;">w22 222 <span class="btn-done">Done!</span><span class="btn-delete">Delete</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
     </div>
-
-  </div>
-
     <script src="app/js/app.js"></script>
+    <script src="app/js/add.js"></script>
 </body>
 </html>

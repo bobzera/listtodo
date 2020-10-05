@@ -1,7 +1,4 @@
 @import "reset";
-
-
-h1{
-    color: #fefefe;
-    padding-left: 45%;
-}
+@import "global";
+@import "home";
+@import "add";

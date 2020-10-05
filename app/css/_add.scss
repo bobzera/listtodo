@@ -1,0 +1,40 @@
+.add{
+   
+        background-color: #fefefe; 
+        height: 100vh;
+   
+}
+
+.add-task{
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+
+.add-task button, .add-task input{
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+
+.btn-add{
+    background-color: rgb(4, 162, 224);
+    color: white;
+}
+
+.list li{
+    list-style: none;
+    margin: 5px;
+}
+
+.btn-done{
+    background-color:green;
+    padding: 2px;
+    margin: 3px;
+}
+
+.btn-delete{
+    background-color: red;
+    padding: 2px;
+    margin: 3px;
+}
