@@ -6,13 +6,16 @@ const list = document.querySelector(".list")
 
 
 btn.addEventListener("click", function(){
-
+ 
+    
     addTask()
    
 }); 
 
 
+
 function addTask(){
+    
     
         let liItems = document.createElement('li');
 
@@ -22,15 +25,16 @@ function addTask(){
         let soText = document.createTextNode('Done!');
         let stText = document.createTextNode('Delete');
 
+       
+
         spanOne.appendChild(soText);
         spanTwo.appendChild(stText);
 
         spanOne.setAttribute('class', 'btn-done');
         spanTwo.setAttribute('class', 'btn-delete');
 
-        liItems.textContent = name.value + " " + minutes.value + " ";
-
-        
+        liItems.textContent = name.value + minutes.value;
+  
         liItems.appendChild(spanOne);
         liItems.appendChild(spanTwo);
 
@@ -50,6 +54,6 @@ function addTask(){
             liItems.remove();
 
           });
-
+       
 }
 
